@@ -1,3 +1,47 @@
+# 💰 Personal Finance Visualizer
+
+A simple and responsive web application to track personal finances, built using **React**, **Recharts**, **Tailwind (via shadcn/ui)**, and **MongoDB** (planned integration). It helps users monitor expenses, analyze spending categories, and set monthly budgets.
+
+---
+
+## 🌟 Features
+
+### ✅ Stage 1: Basic Transaction Tracking
+- Add, edit, and delete transactions (amount, description, date)
+- List view of all transactions
+- Bar chart for monthly expenses
+- Basic form validation and error handling
+
+### ✅ Stage 2: Category Tracking
+- Categorise transactions using predefined categories
+- Pie chart showing category-wise spending
+- Dashboard summary: total expenses, recent transactions
+
+### ✅ Stage 3: Budgeting & Insights
+- Set monthly budgets per category
+- Bar chart comparing **budgeted vs actual** spending
+- Spending insights at a glance
+
+---
+
+## 🛠️ Tech Stack
+
+- **React** – frontend framework
+- **Shadcn/ui** – component library
+- **Recharts** – for charts & visualizations
+- **Tailwind CSS** – responsive UI styling
+- **Mongodb** – future backend data store (not yet integrated)
+
+---
+
+## 📦 Getting Started
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/personal-finance-visualizer.git
+cd personal-finance-visualizer
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
